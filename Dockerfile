@@ -1,2 +1,2 @@
 ./mvnw clean package -DskipTests
-java -jar target/*.jar ithuva
+java -jar target/*.jar 
