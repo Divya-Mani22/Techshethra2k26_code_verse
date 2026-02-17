@@ -31,7 +31,7 @@ public class RegistrationController {
     public ResponseEntity<?> save(@RequestBody Registration r) {
         // --- REGISTRATION CLOSE LOGIC ---
         // Unga deadline-a inga fix pannunga (Year, Month, Day, Hour, Minute)
-        LocalDateTime deadline = LocalDateTime.of(2026, 2, 20, 23, 59); 
+        LocalDateTime deadline = LocalDateTime.of(2026, 3, 01, 23, 59); 
         LocalDateTime now = LocalDateTime.now();
 
         if (now.isAfter(deadline)) {
