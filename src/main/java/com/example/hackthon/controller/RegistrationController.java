@@ -14,7 +14,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/register")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://techshethra-frontend.onrender.com")
 public class RegistrationController {
 
     private final RegistrationRepository repo;
